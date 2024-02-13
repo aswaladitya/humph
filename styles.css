@@ -98,3 +98,29 @@ button:hover {
     height: auto; /* Maintain aspect ratio */
 }
 
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.proposal-container {
+    position: relative;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.proposal-gif {
+    display: block;
+    margin: 20px auto; /* Adjust the margin to position the GIF below the box */
+}
