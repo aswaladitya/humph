@@ -81,3 +81,14 @@ button:hover {
     max-width: 100%;
     height: auto;
 }
+
+.proposal-container {
+    position: relative;
+}
+
+.proposal-gif {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
