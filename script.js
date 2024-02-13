@@ -19,3 +19,13 @@ function celebrate() {
         <img src="https://media.giphy.com/media/l2QDM9Jnim1YVILXa/giphy.gif" alt="Celebration">
     </div>`;
 }
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
