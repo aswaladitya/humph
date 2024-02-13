@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f8f8f8;
 }
 
 .container {
@@ -11,6 +11,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+}
+
+h1 {
+    color: #d81b60;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .buttons {
@@ -24,6 +30,16 @@ button {
     cursor: pointer;
     border: none;
     border-radius: 5px;
+}
+
+.yes {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.no {
+    background-color: #f44336;
+    color: #fff;
 }
 
 button:hover {

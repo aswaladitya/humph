@@ -14,4 +14,3 @@ function celebrate() {
         <img src="https://media.giphy.com/media/l2QDM9Jnim1YVILXa/giphy.gif" alt="Celebration">
     </div>`;
 }
-
