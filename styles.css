@@ -1,7 +1,9 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffd1dc; /* Light Pink */
+    background-image: url('https://images.unsplash.com/photo-1542206395-d8fe267a5a8f');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
+
 
 .container {
     max-width: 600px;
