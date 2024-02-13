@@ -17,7 +17,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease; /* Add transition for hover effect */
+    font-size: 18px; /* Add font-size property */
 }
+
 
 h1 {
     color: #d81b60; /* Pink */
@@ -61,7 +63,7 @@ button:hover {
 .celebration {
     margin: 50px auto;
     padding: 20px;
-    background-color: #4caf50; /* Green */
+    background-color: #ffc0cb; /* Light Pink */
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
