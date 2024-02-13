@@ -1,12 +1,7 @@
 body {
     background-color: #ffd1dc; /* Light Pink */
+    font-family: 'Open Sans', sans-serif; /* Set default font */
 }
-
-
-
-
-
-
 
 .container {
     max-width: 600px;
@@ -16,10 +11,9 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    transition: transform 0.3s ease; /* Add transition for hover effect */
-    font-size: 18px; /* Add font-size property */
+    transition: transform 0.3s ease;
+    font-size: 18px;
 }
-
 
 h1 {
     color: #d81b60; /* Pink */
@@ -89,58 +83,20 @@ button:hover {
 }
 
 .proposal-gif {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.proposal-gif {
-    max-width: 100%; /* Set the maximum width to 100% of its container */
-    height: auto; /* Maintain aspect ratio */
-}
-
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1, h2, h3 {
-    font-family: 'Roboto', sans-serif;
-}
-
-.proposal-container {
-    position: relative;
-}
-
-.container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-}
-
-.proposal-gif {
+    max-width: 100%;
     display: block;
-    margin: 20px auto; /* Adjust the margin to position the GIF below the box */
+    margin: 20px auto;
 }
 
-/* For mobile devices */
-@media (max-width: 767px) {
-    .buttons button {
-        padding: 15px 25px; /* Increase padding for easier tapping */
-        font-size: 20px; /* Increase font size for better readability */
-    }
-}
-/* Adjust layout for smaller screens */
+/* Media query for smaller screens */
 @media (max-width: 767px) {
     .container {
-        max-width: 80%; /* Adjust container width for better readability */
+        max-width: 80%;
+        margin-top: 30px; /* Increase top margin for better spacing */
     }
 
-    .proposal-gif {
-        width: 100%; /* Make the GIF fill the entire width of smaller screens */
+    .buttons button {
+        padding: 15px 25px;
+        font-size: 20px;
     }
 }
