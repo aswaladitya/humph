@@ -124,3 +124,11 @@ h1, h2, h3 {
     display: block;
     margin: 20px auto; /* Adjust the margin to position the GIF below the box */
 }
+
+/* For mobile devices */
+@media (max-width: 767px) {
+    .buttons button {
+        padding: 15px 25px; /* Increase padding for easier tapping */
+        font-size: 20px; /* Increase font size for better readability */
+    }
+}
