@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+    background-color: #ffd1dc; /* Light Pink */
 }
 
 .container {
@@ -11,10 +11,11 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    transition: transform 0.3s ease; /* Add transition for hover effect */
 }
 
 h1 {
-    color: #d81b60;
+    color: #d81b60; /* Pink */
     font-size: 30px;
     margin-bottom: 20px;
 }
@@ -33,12 +34,12 @@ button {
 }
 
 .yes {
-    background-color: #4caf50;
+    background-color: #4caf50; /* Green */
     color: #fff;
 }
 
 .no {
-    background-color: #f44336;
+    background-color: #f44336; /* Red */
     color: #fff;
 }
 
@@ -49,4 +50,29 @@ button:hover {
 #response {
     margin-top: 20px;
     font-size: 18px;
+}
+
+/* Additional styles for celebration */
+.celebration {
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #4caf50; /* Green */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #fff;
+}
+
+.celebration h1 {
+    font-size: 30px;
+}
+
+.celebration p {
+    font-size: 18px;
+}
+
+.celebration img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
 }

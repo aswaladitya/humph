@@ -3,6 +3,11 @@ function checkAnswer(answer) {
         celebrate();
     } else {
         document.getElementById('response').innerHTML = "Are you sure? Think again!";
+        // Add shake effect on container
+        document.querySelector('.container').style.transform = 'translateX(-10px)';
+        setTimeout(() => {
+            document.querySelector('.container').style.transform = 'translateX(0)';
+        }, 100);
     }
 }
 
